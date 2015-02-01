@@ -20,7 +20,7 @@ In cases where there are multiple instances of the search string, only the first
 
 ## `gsub`
 
-`gsub` does exactly what `sub` does, except it acts *globally*, replace *all* instances of the search string with the replacement string.
+`gsub` does exactly what `sub` does, except it acts *globally*, replacing *all* instances of the search string with the replacement string.
 
 ``` ruby
 'This is a test. And that is a giraffe.'.sub('is', 'is NOT')
