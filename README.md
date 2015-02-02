@@ -42,7 +42,6 @@ I'd like to see:
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
 - How to make your HTML clean to look at
-- How to draw shapes with css
 
 ## DOING
 
@@ -53,6 +52,4 @@ I am doing:
 - Git Cherry-pick vs. Merge (erskin19)
 - Parallax Scrolling (joshshadik)
 - How to make your HTML clean to look at (sarahnade)
-=======
 - How to draw shapes with css (Akalinsky)
->>>>>>> cfe501444a07d8e9f0023ee7cb8d260d6c486f05
