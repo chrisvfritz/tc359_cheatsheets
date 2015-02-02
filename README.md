@@ -42,3 +42,8 @@ I'd like to see:
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
 - How to make your HTML clean to look at
+
+## DOING
+
+I am doing:
+- Git Rebase vs. Git Merge (jbull477)
