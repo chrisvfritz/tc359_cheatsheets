@@ -35,7 +35,7 @@ git push origin master
 ## TODO
 
 I'd like to see:
-
 - How to revert your working directory back to what is on GitHub
+- Git Rebase vs. Git Merge
 - Something else
 - And something else
