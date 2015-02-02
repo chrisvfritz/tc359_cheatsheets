@@ -52,3 +52,4 @@ I am doing:
 - How to revert your working directory back to what is on GitHub (PStanos)
 - How do you revert a git repository to an older commit in the repository history? (snurby7)
 - Git Cherry-pick vs. Merge (erskin19)
+- Parallax Scrolling (joshshadik)
