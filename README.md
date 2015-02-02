@@ -39,6 +39,7 @@ I'd like to see:
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
 - How to make your HTML clean to look at
+- Git Cherry-pick vs. Merge
 
 ## DOING
 
