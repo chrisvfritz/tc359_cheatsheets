@@ -53,3 +53,4 @@ I am doing:
 - How do you revert a git repository to an older commit in the repository history? (snurby7)
 - Git Cherry-pick vs. Merge (erskin19)
 - Parallax Scrolling (joshshadik)
+- How to draw shapes with css (Akalinsky)
