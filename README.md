@@ -38,6 +38,8 @@ I'd like to see:
 - How to revert your working directory back to what is on GitHub
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
-- Something else
-- And something else
 - How to make your HTML clean to look at
+
+## DOING
+
+I am doing:
