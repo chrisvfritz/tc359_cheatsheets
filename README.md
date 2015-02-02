@@ -44,6 +44,7 @@ I'd like to see:
 - How to make your HTML clean to look at
 - How to draw shapes with css
 - Git Cherry-pick vs. Merge
+- What are the benefits of Linux and should I switch from Windows? What's the easiest way to do that?
 
 ## DOING
 
@@ -53,4 +54,7 @@ I am doing:
 - How do you revert a git repository to an older commit in the repository history? (snurby7)
 - Git Cherry-pick vs. Merge (erskin19)
 - Parallax Scrolling (joshshadik)
-- How to draw shapes with CSS (wulfeku3)
+<<<<<<< HEAD
+=======
+- How to draw shapes with css (Akalinsky)
+>>>>>>> cfe501444a07d8e9f0023ee7cb8d260d6c486f05
