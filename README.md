@@ -43,7 +43,6 @@ I'd like to see:
 - Parallax Scrolling
 - How to make your HTML clean to look at
 - How to draw shapes with css
-- Git Cherry-pick vs. Merge
 
 ## DOING
 
