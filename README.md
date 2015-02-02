@@ -55,4 +55,4 @@ I am doing:
 - Parallax Scrolling (joshshadik)
 - How to make your HTML clean to look at (sarahnade)
 - How to draw shapes with css (Akalinsky)
->>>>>>> cfe501444a07d8e9f0023ee7cb8d260d6c486f05
+
