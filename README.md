@@ -36,6 +36,6 @@ git push origin master
 
 I'd like to see:
 
-- Something
+- How do you revert a git repository to an older commit in the repository history?
 - Something else
 - And something else
