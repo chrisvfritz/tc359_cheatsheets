@@ -36,6 +36,6 @@ git push origin master
 
 I'd like to see:
 
-- Something
+- Git Rebase vs. Git Merge
 - Something else
 - And something else
