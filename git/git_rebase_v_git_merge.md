@@ -34,4 +34,4 @@ Merging shows more project history so that developers can more easily see when m
 
 An interactive rebase, which can be created by using the `-i` option, allows the developer doing the rebase to modify the re-written commits by giving them commit messages or reordering the commits.
 
-The golden rule of `git rebase` is to never us it on public branches.  If you do, other developers will be working on a different version of the branch that you rebased.  Then you will need to merge the different versions of the branch together to get everything back to normal.
+The golden rule of `git rebase` is to never use it on public branches.  If you do, other developers will be working on a different version of the branch that you rebased.  Then you will need to merge the different versions of the branch together to get everything back to normal.
