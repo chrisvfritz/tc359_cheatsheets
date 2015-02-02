@@ -37,5 +37,9 @@ git push origin master
 I'd like to see:
 - How to revert your working directory back to what is on GitHub
 - Git Rebase vs. Git Merge
-- Something else
-- And something else
+- Parallax Scrolling
+- How to make your HTML clean to look at
+
+## DOING
+
+I am doing:
