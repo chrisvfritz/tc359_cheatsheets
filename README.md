@@ -48,3 +48,4 @@ I'd like to see:
 
 I am doing:
 - Git Rebase vs. Git Merge (jbull477)
+- How to revert your working directory back to what is on GitHub (PStanos)
