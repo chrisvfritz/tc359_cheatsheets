@@ -50,3 +50,4 @@ I am doing:
 - Git Rebase vs. Git Merge (jbull477)
 - How to revert your working directory back to what is on GitHub (PStanos)
 - How do you revert a git repository to an older commit in the repository history? (snurby7)
+- Git Cherry-pick vs. Merge (erskin19)
