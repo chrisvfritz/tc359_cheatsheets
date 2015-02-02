@@ -13,4 +13,8 @@ Note: untracked files (e.g. new files that are not currently tracked by Git) wil
 
 ## Putting it all together
 
-'git reset --hard origin/<branch_name>' will reset your currently checked out branch to the remote repository's latest commit on the branch specified by <branch_name>.
+```
+git reset --hard origin/<branch_name>
+```
+
+Running this command will reset your currently checked out branch to the remote repository's latest commit on the branch specified by <branch_name>.
