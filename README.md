@@ -36,6 +36,6 @@ git push origin master
 
 I'd like to see:
 
-- Something
+- How to revert your working directory back to what is on GitHub
 - Something else
 - And something else
