@@ -35,8 +35,10 @@ git push origin master
 ## TODO
 
 I'd like to see:
-<<<<<<< HEAD
+
 
 - How do you revert a git repository to an older commit in the repository history?
 - How to revert your working directory back to what is on GitHub
 - Git Rebase vs. Git Merge
+- Parallax Scrolling
+- How to make your HTML clean to look at
