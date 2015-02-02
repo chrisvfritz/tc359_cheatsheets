@@ -35,6 +35,9 @@ git push origin master
 ## TODO
 
 I'd like to see:
+
+
+- How do you revert a git repository to an older commit in the repository history?
 - How to revert your working directory back to what is on GitHub
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
@@ -44,3 +47,4 @@ I'd like to see:
 ## DOING
 
 I am doing:
+- Git Rebase vs. Git Merge (jbull477)
