@@ -2,7 +2,7 @@ This advice applies if you're using the standalone version of the Heroku toolbel
 
 Heroku Toolbelt depends plenty on JSON, which you can provide with `gem install json`. Beware of using `bundle clean` and *especially* `bundle clean --force`, however, because that will obliterate the JSON gem and ruin your day. Here's what I'm talking about:
 
-``` bash
+```
 [18:44 1771 ~/tc359/p5] % heroku apps:info
 === name
 Error submitting error.
