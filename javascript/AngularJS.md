@@ -7,11 +7,11 @@ Angular JS is a html/JS framework that allows you to have JS functionality in HT
 
 How to use AngularJS?
 ---------------------
-Like any Framework, you need to download the files needed for running it. You can do that by downloading from [link](https://angularjs.org/) or cloning from github [link](https://github.com/angular/angular.js)
+Like any Framework, you need to download the files needed for running it. You can do that by downloading from [Angular](https://angularjs.org/) or cloning from github [here](https://github.com/angular/angular.js)
 
-Once installed, you use Angular in your HTML and JS files. I rely on the API docs heavily [link](https://docs.angularjs.org/api)
+Once installed, you use Angular in your HTML and JS files. I rely on the API docs heavily [Angular/API](https://docs.angularjs.org/api)
 
-Here are the basics you need to know about, all of which are explained here [link](https://docs.angularjs.org/guide)
+Here are the basics you need to know about, all of which are explained here in the [Angular/Guide](https://docs.angularjs.org/guide)
 --------------------------------------------------------------------------------------------------------------------
  * Data binding
       Data Binding is how Angular syncs the data between views and models, allowing sites to have dynamic content. This is the core of AngularJS
@@ -30,10 +30,10 @@ Here are the basics you need to know about, all of which are explained here [lin
 
 Tutorials:
 ----------
-   * [link](https://docs.angularjs.org/tutorial)
-   * [link](http://www.w3schools.com/angular/)
-   * [link](https://thinkster.io/a-better-way-to-learn-angularjs/)
+   * [Angular/Tutorial](https://docs.angularjs.org/tutorial)
+   * [w3schools](http://www.w3schools.com/angular/)
+   * [thinkster](https://thinkster.io/a-better-way-to-learn-angularjs/)
 
 My confession:
 --------------
-   I hope you learned enough to get interested in AngularJS, I'm still wrapping my head around the concepts. I used angularjs.org to verify what I thought I knew as well as copy the information that I didn't. Please visit [link](https://angularjs.org/) if you want to learn more. Anything in "" can be found on angularjs.org
+   I hope you learned enough to get interested in AngularJS, I'm still wrapping my head around the concepts. I used angularjs.org to verify what I thought I knew as well as copy the information that I didn't. Please visit [Angular](https://angularjs.org/) if you want to learn more. Anything in "" can be found on angularjs.org
