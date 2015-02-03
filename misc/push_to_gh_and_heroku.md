@@ -1,7 +1,5 @@
 *Tested on Linux. Mac users might be able to follow suit too. Windows users, make a Linux virtual machine.*
 
-When bash starts, it looks in your home directory for the files `.bashrc`, `.bash_profile`, and `.profile`. If they exist, it will run the commands in each one it finds.
-
 The `alias` command is one of bash's greatest timesavers. Here's an example you can type into your shell: `alias bye='sudo shutdown -h'`*. From then on until the shell is closed, any command beginning with (or containing only) "bye" will have that word substituted for the alias you just defined. Used in an example:
 
 ```
@@ -13,9 +11,11 @@ Broadcast message from ec2-user@ec2-host
 The system is going down for halt in 50 minutes!
 
 ```
-You could've written `sudo shutdown -h 50`, but you didnt' didn't have to. Sixteen keystrokes reduced to three. Boo-yah.
+You could've written `sudo shutdown -h 50`, but you didn't have to. Nineteen keystrokes reduced to six. Boo-yah.
 
 The command to push to GitHub, generally speaking, is `git push origin`.  Likewise for Heroku, it's `git push heroku`.
+
+Finally: when bash starts, it looks in your home directory for the files `.bashrc`, `.bash_profile`, and `.profile`. If they exist, it will run the commands in each one it finds.
 
 Bring all of the above together for one huge tip:
 ``` bash
