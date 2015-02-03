@@ -13,7 +13,7 @@ Broadcast message from ec2-user@ec2-host
 The system is going down for halt in 50 minutes!
 
 ```
-You could've written `sudo shutdown -h 50`, but you didnt' didn't have to. Sixteen keystrokes reduced to three.
+You could've written `sudo shutdown -h 50`, but you didnt' didn't have to. Sixteen keystrokes reduced to three. Boo-yah.
 
 The command to push to GitHub, generally speaking, is `git push origin`.  Likewise for Heroku, it's `git push heroku`.
 
