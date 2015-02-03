@@ -13,18 +13,18 @@ Once installed, you use Angular in your HTML and JS files. I rely on the API doc
 
 Here are the basics you need to know about, all of which are explained here in the [Angular/Guide](https://docs.angularjs.org/guide)
 --------------------------------------------------------------------------------------------------------------------
- * Data binding
+ * **Data binding**  
       Data Binding is how Angular syncs the data between views and models, allowing sites to have dynamic content. This is the core of AngularJS
       You can see how in Angular documents, there are "weird" attribute on html tags, like <div ng-body>. This is how we implement data binding
- * Expressions
+ * **Expressions**  
       In pure HTML, you can't type in 2+2 and expect 4 to be displayed on the page. Well thanks to Angular, expressions like 1+2 or items[index] are now possible! All thats required is using double curly brackets {{2+2}} and your html page will display 4
- * Directives
+ * **Directives**  
       "At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element or even transform the DOM element and its children. There are built in directives such as ng-model and you also have the ability to create you own custom directives as well."
- * Views and routes (see the example)
+ * **Views and routes (see the example)**  
       "$route is used for deep-linking URLs to controllers and views (HTML partials). It watches $location.url() and tries to map the path to an existing route definition."
- * Filters
+ * **Filters** 
       "A filter formats the value of an expression for display to the user. They can be used in view templates, controllers or services and it is easy to define your own filter."
- * Forms 
+ * **Forms**  
       "Controls (input, select, text-area) are ways for a user to enter data. A Form is a collection of controls for the purpose of grouping related controls together.
       Form and controls provide validation services, so that the user can be notified of invalid input. This provides a better user experience, because the user gets instant feedback on how to correct the error. Keep in mind that while client-side validation plays an important role in providing good user experience, it can easily be circumvented and thus can not be trusted. Server-side validation is still necessary for a secure application."
 
