@@ -10,12 +10,12 @@ Getting Started
 ===============
 The first thing you need to do is decide how we are going to get jQuery onto your webpage. There are two methods typically used to accomplish this
 
-a. Downloading jQuery:
+a. Downloading jQuery:  
 Downloading jQuery directly from jQuery.com means you will need to keep it in the same directory as the pages you wish to use it on. This gives you more control but can be a bit of a hassle to keep updated. The code for this would be something like:
 
 script src="jquery-1.11.2.min.js"
 
-b. Using a CDN:
+b. Using a CDN:  
 Both Google and Microsoft provide jQuery CDNs (Content Delivery Network). These allow you to use the jQuery library through one of these sources using code such as the following:
 
 script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
@@ -26,21 +26,21 @@ In general a jQuery element will look something like this:
 
 $(HTMLelement).action()
 
-The $ symbol says that we are defining jQuery
-(HTMLelement)is the element of your page we are going to affect
-action()is where we define the jQuery function we would like to perform on the HTML element
+* The $ symbol says that we are defining jQuery  
+* (HTMLelement)is the element of your page we are going to affect  
+* action()is where we define the jQuery function we would like to perform on the HTML element  
 
-A working example of this would be:
-$('h1').hide()
+A working example of this would be:  
+$('h1').hide()  
 This would hide all h1 elements on the webpage
 
 Beginning your jQuery
 =====================
 In order to prevent your jQuery from running before your page loads you always want to place your jQuery within a document ready event. This would look something like this:
 
-$(document).ready(function(){
-  jQuery methods go here...
-});
+$(document).ready(function(){  
+  jQuery methods go here...  
+});  
 
 Tip: $(document).ready(function() can be shortened to just $(function()
 
@@ -52,13 +52,13 @@ Lets try some jQuery out using a well known example.
 2. Create a Click Me button on your HTML page along with some "p" entries. 
 3. Now add the following jQuery in the <head> or by linking another file:
 
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").hide();
-  });
-}); 
+$(document).ready(function(){  
+  $("button").click(function(){  
+    $("p").hide();  
+  });  
+});   
 
-4. View your page, when you click the button your paragraphs should disappear!
+View your page, when you click the button your paragraphs should disappear!
 
 Where to go from here
 =====================
