@@ -25,9 +25,10 @@ jQuery syntax
 In general a jQuery element will look something like this:
 
 $(HTMLelement).action()
-  *The $ symbol says that we are defining jQuery
-  *(HTMLelement)is the element of your page we are going to affect
-  *action()is where we define the jQuery function we would like to perform on the HTML element
+
+The $ symbol says that we are defining jQuery
+(HTMLelement)is the element of your page we are going to affect
+action()is where we define the jQuery function we would like to perform on the HTML element
 
 A working example of this would be:
 $('h1').hide()
@@ -48,7 +49,7 @@ Give it a try!
 Lets try some jQuery out using a well known example.
 
 1. Create an HTML page and link jQuery to it using one of the methods above. 
-2. Create a <button>Click Me</button> on your HTML page along with some <p> entries. 
+2. Create a Click Me button on your HTML page along with some "p" entries. 
 3. Now add the following jQuery in the <head> or by linking another file:
 
 $(document).ready(function(){
