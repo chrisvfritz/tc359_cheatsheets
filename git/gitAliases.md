@@ -8,22 +8,22 @@ After you have cloned a repository on github.com or after setting up the origin 
 
 All you need to do is go into terminal and define this function
 
-''''
+```
 epicGit(){
 	git add .
 	git commit -m "$1"
 	git push origin master
 	git status
 }
-''''
+```
 
 The "$1" will allow you to call the function epicGit with a string argument that will be the commit message.
 
 You can use this by typing
 
-''''
+```
 epicGit "I'm pushing this to github using an awesome function I wrote"
-''''
+```
 
 If everything goes according to plan you should see a few lines of change notifications, a few lines of writing the changes, and a nice "nothing to commit, working directory clean" message.
 
