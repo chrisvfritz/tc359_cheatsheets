@@ -1,0 +1,9 @@
+Some of the most potent arguments for linix over windows are its reliability, security, and cost of software.
+some sites that go into detail on why you should switch are:
+http://www.computerhope.com/issues/ch000575.htm
+http://www.quora.com/What-are-the-advantages-of-Linux-over-Windows
+
+As for in stalling linux, it is a lengthy explanation, so for a good detailed answer go to one of these pages:
+http://www.howtogeek.com/192462/linux-was-once-hard-to-install-and-use-now-its-easy/
+http://www.linux.com/learn/tutorials/770346-how-to-install-and-try-linux-the-absolutely-easiest-and-safest-way
+http://www.instructables.com/id/Install-any-linux-from-a-usb-the-easy-way/
