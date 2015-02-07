@@ -26,10 +26,11 @@ Therefore you want multiple media queries set to change at different widths in o
 
 Lets change this code so that when you are on a tablet your contact image on your webpage is a little larger on easier to see.
 
+```
 #contact_image {
 	width: 250px;
 }
-
+```
 Lets take that CSS and apply a media query to it.
 
 @media (max-width: 900px) {
