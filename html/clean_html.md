@@ -24,7 +24,7 @@ Additionally, if there is a group of tags located inside of another tag, stack t
   <body>
     <div>
       <h1>This is a Heading</h1>
-      <p><img alt"picture" src="images/image.png"/></p>
+      <p><img alt="picture" src="images/image.png"/></p>
       <p>This is a paragraph.</p>
     </div>
   </body>
