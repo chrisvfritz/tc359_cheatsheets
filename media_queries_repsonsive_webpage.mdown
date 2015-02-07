@@ -6,10 +6,11 @@ When done correctly your webpage should work on any screen type without you actu
 
 ### Overview
 
+```
 @media (max-width: 500px) {
 	
 }
-
+```
 1. @media is to call the media query
 
 2. max-width is used when you want to change something in the webpage to look differently when the maximum width of the page is what you specify it to be.
@@ -33,11 +34,13 @@ Lets change this code so that when you are on a tablet your contact image on you
 ```
 Lets take that CSS and apply a media query to it.
 
+```
 @media (max-width: 900px) {
 	#contact_image {
 		width: 350px;
 	}
 }
+```
 
 Now when your webpage is below 900px the width of your contact image will increase from 250px to 350px.
 
