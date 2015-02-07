@@ -6,9 +6,9 @@ When done correctly your webpage should work on any screen type without you actu
 
 ### Overview
 
-`@media (max-width: 500px) {
+@media (max-width: 500px) {
 	
-}`
+}
 
 1. @media is to call the media query
 
@@ -26,17 +26,17 @@ Therefore you want multiple media queries set to change at different widths in o
 
 Lets change this code so that when you are on a tablet your contact image on your webpage is a little larger on easier to see.
 
-`#contact_image {
+#contact_image {
 	width: 250px;
-}`
+}
 
 Lets take that CSS and apply a media query to it.
 
-`@media (max-width: 900px) {
+@media (max-width: 900px) {
 	#contact_image {
 		width: 350px;
 	}
-}`
+}
 
 Now when your webpage is below 900px the width of your contact image will increase from 250px to 350px.
 
