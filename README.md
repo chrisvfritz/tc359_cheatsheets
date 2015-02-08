@@ -31,6 +31,7 @@ To push your changes to GitHub:
 git pull origin
 git push origin master
 ```
+<<<<<<< HEAD
 
 ## TODO
 
@@ -64,3 +65,5 @@ I am doing:
 - How to draw shapes with css (Akalinsky)
 
 >>>>>>> 7a9b39ac85a5a845089f788d7dd3c756e89cbe58
+=======
+>>>>>>> 4aabbbc1520ad2012b9b9611d495bf5671479710
