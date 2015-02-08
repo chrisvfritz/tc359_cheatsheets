@@ -6,7 +6,7 @@ With the number of tools available online today, creating color palettes for web
 
 **Hue** - The actual color something is. *Ex. Red or Green*
 
-**Chrome** - How pure a long is (the lack of white, black, or gray present in it).
+**Chroma** - How pure a long is (the lack of white, black, or gray present in it).
 
 **Saturation** - How strong or weak a color is.
 
