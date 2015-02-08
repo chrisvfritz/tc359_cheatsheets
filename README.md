@@ -42,7 +42,7 @@ I'd like to see:
 - Git Rebase vs. Git Merge
 - Parallax Scrolling
 - How to make your HTML clean to look at
-- How to draw shapes with css
+
 - Git Cherry-pick vs. Merge
 - What are the benefits of Linux and should I switch from Windows? What's the easiest way to do that?
 
@@ -55,6 +55,12 @@ I am doing:
 - Git Cherry-pick vs. Merge (erskin19)
 - Parallax Scrolling (joshshadik)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - How to draw shapes with css (Akalinsky)
 >>>>>>> cfe501444a07d8e9f0023ee7cb8d260d6c486f05
+=======
+- How to make your HTML clean to look at (sarahnade)
+- How to draw shapes with css (Akalinsky)
+
+>>>>>>> 7a9b39ac85a5a845089f788d7dd3c756e89cbe58

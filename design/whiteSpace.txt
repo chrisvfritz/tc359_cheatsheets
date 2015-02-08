@@ -1,0 +1,7 @@
+Negative space, or white space, is an area of a design that is not occupied by content. It does not have to be white! Understanding how to properly implement negative space into a design helps with clarity, prioritization, and overall just makes things looks nicer and easier to read. These links lead to very helpful guides that explain negative space, why it's important, and how to identify what's good and what isn't so good in your design.
+
+http://sixrevisions.com/web_design/negative-space-in-webpage-layouts-a-guide/
+http://uxmyths.com/post/2059998441/myth-28-white-space-is-wasted-space
+http://www.vanseodesign.com/web-design/design-space/
+
+And here is an interesting link with a ton of examples of white space being used in logos: http://designshack.net/articles/inspiration/80-clever-negative-space-logo-designs/
