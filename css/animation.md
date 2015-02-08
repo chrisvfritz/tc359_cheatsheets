@@ -5,11 +5,11 @@ So let's start with a div we can target:
 <!DOCTYPE html>
 <html>
 <head>
-    <style type="text/css">
-    </style>
+  <style type="text/css">
+  </style>
 </head>
 <body>
-    <div></div>
+  <div></div>
 </body>
 </html>
 ```
@@ -18,13 +18,12 @@ We'll give it a height, width, and color so we can see the effects:
 
 ``` css
 <style type="text/css">
-	body > div
-		{
-      width: 400px;
-			height: 200px;
-      background: gray;
-      transition:all 0.3s ease; /* Transition will be for the effect. Tranistion all properties at a speed of 0.3 seconds with the default ease value for timing. */
-		}
+  body > div {
+    width: 400px;
+    height: 200px;
+    background: gray;
+    transition:all 0.3s ease; /* Transition will be for the effect. Tranistion all properties at a speed of 0.3 seconds with the default ease value for timing. */
+  }
 </style>
 ```
 
@@ -45,20 +44,20 @@ Now for some animations! Here's a fade in to a different color on hover:
 
 ``` css
 <style type="text/css">
-	body > div {
+  body > div {
     width: 400px;
-		height: 200px;
+    height: 200px;
     background: gray;
     transition:all 0.3s ease; /* Transition will be for the effect. Tranistion all properties at a speed of 0.3 seconds with the default ease value for timing. */
-	}
+  }
 
-	.fade {
+  .fade {
     opacity:0.5;
-	}
+  }
 
-	.fade:hover {
+  .fade:hover {
     opacity:1;
-	}
+  }
 </style>
 ```
 
@@ -81,18 +80,18 @@ Okay so now how about a transform:
 
 ``` css
 <style type="text/css">
-	body > div{
+  body > div{
     width: 400px;
-		height: 200px;
+    height: 200px;
     background: gray;
     transition:all 0.3s ease; /* Transition will be for the effect. Tranistion all properties at a speed of 0.3 seconds with the default ease value for timing. */
-	}
+  }
 
-	.shrink:hover{
+  .shrink:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-	}
+  }
 </style>
 ```
 
