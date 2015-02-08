@@ -1,0 +1,13 @@
+Choosing a browser for Web Development seems like it may be an easy task, but for some not already proficient in coding, it is not as simple as it may seem. Some browsers are better than others for such work, but really it all comes down to personal preference.
+
+The most popular browsers among Web Developers are Firefox and Google Chrome. You cannot really go wrong with either browser, so it comes down to a matter of what you are personally more comfortable with.
+
+Firefox is preferred by many because it has the widest range of tools for Web Development. However, it does not have that many more features over Google Chrome. 
+
+Google Chrome is preferred by many because it is faster than other web browsers. 
+
+So it really comes down to the type of performance you want as well. Do you want the slightly more user friendly tools that Firefox provides, or do you need the faster speed that comes with Google Chrome.
+
+There are other browsers to choose from such as Safari and Opera, but the most preferred always seems to be either Firefox or Google Chrome.
+
+-0kendyl0
