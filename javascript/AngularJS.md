@@ -13,9 +13,17 @@ Once installed, you use Angular in your HTML and JS files. I rely on the API doc
 
 Here are the basics you need to know about, all of which are explained here in the [Angular/Guide](https://docs.angularjs.org/guide)
 --------------------------------------------------------------------------------------------------------------------
+ * **Controllers**
+      Controllers are Javascript constrictor functions that allow Angular to augment Scope. Meaning that Angular uses controllers to define or limit the related Scope object. Controllers should be used to set up the inital state of a Control object or add behavior to a scope object.
+ * **Factories**
+      Think of service Factories as groups of functions, almost like a class. Factories are set up by service providers which have a property called $get which holds the service factory.
+ * **Services**
+      Services are single object ran by a factory. You can learn more about Controllers, Factories and Services from the [Angular Docs](https://docs.angularjs.org/api/auto/service/$provide)
+
  * **Data binding**  
       Data Binding is how Angular syncs the data between views and models, allowing sites to have dynamic content. This is the core of AngularJS
-      You can see how in Angular documents, there are "weird" attribute on html tags, like <div ng-body>. This is how we implement data binding
+      You can see how in Angular documents, there are "weird" attribute on html tags, like <div ng-body>. This is how we implement data binding.
+      The ng-bind directive binds application data to the HTML view. You can learn more from [w3schools](http://www.w3schools.com/angular/angular_intro.asp)
  * **Expressions**  
       In pure HTML, you can't type in 2+2 and expect 4 to be displayed on the page. Well thanks to Angular, expressions like 1+2 or items[index] are now possible! All thats required is using double curly brackets {{2+2}} and your html page will display 4
  * **Directives**  
@@ -27,6 +35,8 @@ Here are the basics you need to know about, all of which are explained here in t
  * **Forms**  
       "Controls (input, select, text-area) are ways for a user to enter data. A Form is a collection of controls for the purpose of grouping related controls together.
       Form and controls provide validation services, so that the user can be notified of invalid input. This provides a better user experience, because the user gets instant feedback on how to correct the error. Keep in mind that while client-side validation plays an important role in providing good user experience, it can easily be circumvented and thus can not be trusted. Server-side validation is still necessary for a secure application."
+ * **Initalizing a Angular app**
+      Angular initializes automatically upon DOMContentLoaded event or when the angular.js script is evaluated if at that time document.readyState is set to 'complete'. At this point Angular looks for the ng-app directive which designates your application root.  Read more on [Angular Docs](https://docs.angularjs.org/guide/bootstrap)
 
 Tutorials:
 ----------
