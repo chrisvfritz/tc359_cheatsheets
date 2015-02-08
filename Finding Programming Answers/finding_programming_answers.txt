@@ -1,0 +1,32 @@
+Programming can be intimidating. With technology today, it can be hard to diagnose exactly what the problem is and even harder to find the correct solution to your programming issues.
+
+First step, is diagnosing the problem. Whether it's a simple code error or something more complex, knowing what's not working correctly is the first step to being able to efficiently google resources to help you fix your problem.
+
+While google is sufficient in some aspects, there are other more precise programmer-oriented websites that may aid your search a little more efficiently.
+
+For specific troubleshooting help:
+
+1. stackoverflow.com 
+	An an excellent resource in answering any sort of setup or error questions. The open forum makes it easy to communicate with others.
+
+2. programmingforums.org
+	Great place to post questions pertaining to script programming problems that may pertain to python, ruby, bash/shell scripting and other languages.
+
+3. railsforum.com
+	Ruby On Rails community good for problems specifically relating to ruby on rails development.
+
+
+For coding/language help:
+
+1. www.w3schools.com
+2. www.learnstreet.com
+3. www.codeacademy.com
+4. www.codeavengers.com
+
+All great for answering any questions you have regarding actual written code that may pertain to html, css, javascript etc.
+
+For technique help:
+1. thecodeplayer.com
+	For more advanced questions pertaining to development and programming.
+
+
