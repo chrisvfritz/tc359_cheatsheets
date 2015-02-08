@@ -5,7 +5,7 @@ One of the most popular use cases is for entering and retrieving data from MySQL
 
 ##Learning PHP is pretty straight forward here are some basics:
 *
-* Inside your html use **<?php* and **?>** to surround your PHP code.
+* Inside your html use **<?php** and **?>** to surround your PHP code.
 * Declare variables using the **$**
 * Print out to screen using **echo**
 * End lines with a **;**
