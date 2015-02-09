@@ -7,17 +7,17 @@ create another branch, add all the changes that you make to that branch, and the
 2. If you wanted to switch into the new branch that you just created, you would run this command:
 	git checkout change_me
 
-3. To add all of the new files that you  created to this branch, you would run this command: 
+3. To add all of the new files that you created to this branch, you would run this command: 
 	git add .
 
-4. You will need to commit your changes to the new branch and you would do this by rinning this command:
+4. You will need to commit your changes to the new branch and you would do this by running this command:
 	git commit -m "added files to the new branch"
 
 5. In order to merge the changes the you made to your new branch with your master branch, you will need to switch back into 
 your master branch by running this command:
 	git checkout master
 
-6. You are almost finished. Since we are in our master branch, we are going to tell git to merge our change_me brach into it 
+6. You are almost finished. Since we are in our master branch, we are going to tell git to merge our change_me branch into it 
 by running this command:
 	git merge change_me
 
