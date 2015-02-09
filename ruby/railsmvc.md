@@ -1,6 +1,6 @@
 #MVC Primer
 
-Model-View-Controller is a software pattern for user interfaces that splits the software into 3 components based on function, called the view, the model, and the controller.
+[Model-View-Controller](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), usually abbreviated as MVC, is a software pattern for user interfaces that splits the software into 3 components based on function, called the view, the model, and the controller.
 
 - The model is the central component which manages the data of the application. Typically it includes a database, and business logic associated with the app.
 - The view is the component which handles displaying data to the user. It requests data from the controller when it needs to, and then displays it whatever form is necessary.
