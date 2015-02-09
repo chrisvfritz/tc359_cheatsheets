@@ -1,0 +1,37 @@
+How to generate a basic sprite using CSS
+
+Sprites are essentially a number of images contained into one file.  
+For example a typical CSS sprite will have a few images contained in a PNG file.
+Although the file size of the sprite containing all the images will be a slightly larger file size than the images by themselves,
+the purpose of the sprite is that all the images are loaded with a single HTTP request!  
+
+One can generate sprites using the following software: Grunt/Node, Compass, ImageMagick, SpriteCow.
+
+Let's say you have a three images (called diamond, square, and circle) combined in a sprite called "shapes.png"
+First, create class names for each shape image in the sprite.
+
+.diamond, .square, .circle {
+	background-image: url('../images/shapes.png');
+	background-repeat: no-repeat;
+}
+
+Second, to display each image create a class for each image setting the correct height of each image as well as the background position.
+*Note that there is a 5px margin between each image in the sprite.
+
+.diamond {
+	height: 75px;
+	background-position: 0px;
+}
+.square {
+	height: 125px;
+	background-position: -80px;
+}
+.circle {
+	height: 50px;
+	background-position: -210px;
+}
+
+Now whenever you call each class in your HTML, you will have that portion of the sprite be displayed which is that single image!
+Source of information: http://css-tricks.com/css-sprites/
+
+To learn more about sprites visit, http://css-tricks.com/css-sprites/
