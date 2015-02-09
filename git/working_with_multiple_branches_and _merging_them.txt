@@ -1,0 +1,29 @@
+People create additional branches in order to find a bug or add some additional features. Listed below are the steps to
+create another branch, add all the changes that you make to that branch, and then merge it with your master branch.
+
+1. In order to create another branch called change_me, you would run this command:
+	git branch change_me
+
+2. If you wanted to switch into the new branch that you just created, you would run this command:
+	git checkout change_me
+
+3. To add all of the new files that you  created to this branch, you would run this command: 
+	git add .
+
+4. You will need to commit your changes to the new branch and you would do this by rinning this command:
+	git commit -m "added files to the new branch"
+
+5. In order to merge the changes the you made to your new branch with your master branch, you will need to switch back into 
+your master branch by running this command:
+	git checkout master
+
+6. You are almost finished. Since we are in our master branch, we are going to tell git to merge our change_me brach into it 
+by running this command:
+	git merge change_me
+
+7. Once you have merged your change_me branch with your master branch, you don't need it anymore so we can go ahead and get rid 
+of it by running this command:
+	git branch -d change_me
+
+8. There is one last thing that you must do and that is to push everything to your remote repository by running this command:
+	git push
