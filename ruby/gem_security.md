@@ -14,21 +14,21 @@ Security steps can be taken, including installing gems with "trust policies" tha
 ##What does it take to submit an "official" gem that others can easily install?
 While anybody can create private gems to use for themselves, you might want to publish it for the world to use. This means signing up for a RubyGems.org account by registering a username and password. These will be used to push the gem:
 
->$ gem push squid-utils-0.1.0.gem
->Enter your RubyGems.org credentials.
->Don't have an account yet? Create one at https://rubygems.org/sign_up
->   Email:   gem_author@example
->Password:
->Signed in.
->Pushing gem to RubyGems.org...
->Successfully registered gem: squid-utils (0.1.0)
+* $ gem push squid-utils-0.1.0.gem
+* Enter your RubyGems.org credentials.
+* Don't have an account yet? Create one at https://rubygems.org/sign_up
+*    Email:   gem_author@example
+* Password:
+* Signed in.
+* Pushing gem to RubyGems.org...
+* Successfully registered gem: squid-utils (0.1.0)
 
 And that's pretty much it. You can see why it's hard to know which gems are really safe to use out there.
 
 ###Sources
-http://guides.rubygems.org/faqs/
-http://en.wikipedia.org/wiki/Ruby_on_Rails
-http://guides.rubygems.org/publishing/
-http://cristianobetta.com/blog/2013/02/02/ruby-gems-are-not-safe-to-use/
-https://gemfury.com/blog/2013/rubygems-vulnerability
-https://www.honeybadger.io/blog/2013/06/25/stop-using-rubygemsorg-in-production
+* http://guides.rubygems.org/faqs/
+* http://en.wikipedia.org/wiki/Ruby_on_Rails
+* http://guides.rubygems.org/publishing/
+* http://cristianobetta.com/blog/2013/02/02/ruby-gems-are-not-safe-to-use/
+* https://gemfury.com/blog/2013/rubygems-vulnerability
+* https://www.honeybadger.io/blog/2013/06/25/stop-using-rubygemsorg-in-production
