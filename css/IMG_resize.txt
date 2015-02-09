@@ -1,0 +1,10 @@
+To make the images flexible, simply add max-width:100% and  height:auto. Image max-width:100% and height:auto works in IE7, but not in IE8 (yes, another weird IE bug). To fix this, you need to add width:auto\9 for IE8.
+
+source: http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries
+for example :
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
