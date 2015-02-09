@@ -41,7 +41,8 @@ Github: https://github.com/railsbp/rails_best_practices
 It can be installed with the command:
 ```
 gem install rails_best_practices
-``
+```
+
 Using rails_best_practices:
 
 cd into the directory you'd like to check with rubocop and run:
