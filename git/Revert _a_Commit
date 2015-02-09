@@ -1,0 +1,4 @@
+How do you revert a git repository to an older commit in the repository history?
+  use the following command - "git revert dd61ab32", where "dd61ab32" is the commit that you want to revert back to. 
+  This does not delete the "bad" commit but creates a new commit with the changes from the earlier commit. 
+  For more information, visit http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html
