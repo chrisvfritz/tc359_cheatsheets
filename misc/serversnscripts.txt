@@ -1,0 +1,37 @@
+Testing/Monitoring the performance of a script/server
+
+First of all we need to understand what is a script/server!
+
+A script represents a text document containing a list of instructions that need to be executed by a certain program so that the desired action can be achieved.
+
+A server is a computer or computer program that manages access to a centralized resource or service in a network.
+
+But why do we need to check its performance!
+
+Provide us with an extensible way to assess load testing. Troubleshooting server performance problems is a key reason for monitoring. Another common reason to monitor a server is to improve server performance. Improving server performance is done by load balancing or by distributing key data files on separate drives! 
+ 	
+Real-life example
+
+Users may be having problems connecting to the server and you may want to monitor the server to troubleshoot these problems. Here, your goal would be to track down the problem using the available monitoring resources and then to resolve it. Whenever pages take a long time to load, users get frustrated, did you know that Amazon tested and found that 100ms delay caused 1% drop-off in sales?!
+
+Ok got it, so how do we test it?
+
+There are a number of ways to do this and different methods work for different scripts too. Here are some links to guides for some of them!
+
+Monitoring Server Performance and Activity:
+https://msdn.microsoft.com/en-us/library/bb726968.aspx
+
+Calculating benchmark speeds of PHP web hosting servers:
+http://www.php-benchmark-script.com/
+
+To benchmark how fast your complete script runs on the server, you can use:
+
+jmeter
+jsperf - http://jsperf.com/
+ApacheBench tool (see an example)
+dbench
+http_load
+curl-loader
+httperf
+siege
+
