@@ -30,3 +30,11 @@ If everything goes according to plan you should see a few lines of change notifi
 You can also make changes to the function like including the -A flag in the git add command in order to also delete the files you have removed from the project.
 
 Or you could use another git pull command before the push command to make sure nothing in the github.com repository has changed since your last pull. Very useful if you're working one project on multiple computers or working with other people on the same project to insure your new code won't conflict with the code that is already published.
+
+##Other Bash Uses
+Using bash you are also able automate a lot of other things. For instance if you were ever sick cd using the cd command to move around the file system you could make a command to automatically move you to the project you want. You could create a function that moves you into a directory so you don't have to remember exactly where everything is.
+
+If you write a function that first uses "cd ~" you can get the function to take you anywhere in the file system from any starting location.
+
+##Last Notes
+Another thing to keep in mind when setting up bash functions is that unless you save your functions to the .bashrc file your functions will not be available to use after shutting down your terminal window or other bash interface. So open that up in your preferred text editor and have fun creating.
