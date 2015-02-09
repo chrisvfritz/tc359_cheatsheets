@@ -10,7 +10,7 @@ It is important that the view and the model never interact directly. The control
 
 #Rails and MVC
 
-Rails by default supports an MVC architecture. Specifically, it creates an MVC architecture that works as follows
+Rails by default [supports an MVC architecture](http://guides.rubyonrails.org/getting_started.html). Specifically, it creates an MVC architecture that works as follows
 - A model is a class that wraps a SQL database and provides functions for accessing the tables inside it without the need for SQL queries
 - A view is an html page
 - A controller is a set of methods that are run when the associated view is active.
