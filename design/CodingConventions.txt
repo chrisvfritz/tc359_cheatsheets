@@ -1,0 +1,10 @@
+CODING CONVENTIONS
+
+Consistant and readable coding conventions are an important part of programming in any language.  While there is no one correct way to write code, there are 
+certainly examples of good coding conventions that we can learn from.  Google provides an excellent standard of what to aim for in most of the major languages.
+
+HTML/CSS - http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
+
+Javascript - http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+
+Complete List: https://code.google.com/p/google-styleguide/
