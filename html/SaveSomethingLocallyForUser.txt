@@ -2,8 +2,6 @@ In order to save  something for a user using HTML 5, you first have to make sure
 
 The following is suggested javascript code on how to detect if the browser supports local storage.
 This was obtained from http://diveintohtml5.info/storage.html
-"
- check for HTML5 Storage
 
 function supports_html5_storage() {
   try {
@@ -12,7 +10,7 @@ function supports_html5_storage() {
     return false;
   }
 }
-"
+
 
 Once you have determined that the browser supports local starage, you are ready to begin.
 
