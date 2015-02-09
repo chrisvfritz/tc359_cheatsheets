@@ -1,0 +1,4 @@
+How To Make Sure Your Website Works On All Browsers
+
+One way to make sure your website will work on all the popular browsers is to make sure you are using proper HTML5. To ensure this one good way is to use something  like HTML5 Boilerplate (https://html5boilerplate.com/). This gives you a template to work from that has correct markup and everything you need to quickly build web apps/sites.  This template also has all the code included to make sure it will run your website properly on most browsers. 
+ 

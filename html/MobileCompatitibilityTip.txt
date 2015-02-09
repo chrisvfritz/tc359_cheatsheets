@@ -1,0 +1,3 @@
+go to http://www.browserstack.com/screenshots and enter you site's URL to generate series of screenshots from different mobile and desktop browsers.
+
+For many more features, including automation and line-by-line debugging, you can try their premium product by clicking "automate" at the top of the webpage.

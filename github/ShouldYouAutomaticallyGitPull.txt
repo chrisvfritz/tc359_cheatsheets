@@ -1,0 +1,31 @@
+        ##########################################################################
+      ################################ Jerold Lewis ################################
+    ##################################################################################
+  #####									           #####
+####### Automatically pulling from GitHub when GitHub is ahead of you local branch #######
+  #####                                                                            #####
+    ##################################################################################
+      ################################### TC 359 ###################################
+        ##########################################################################
+
+
+At first, automatically pulling from a more up-to-date remote repository may sound like a convenient proposition. 
+In reality though, this is 1) not easily implimented and 2) not a good idea.
+
+As far as implimentation goes, Git has no provision for automatically pulling from repositories on system startup
+(or any other event). The most straightforward way to accomplish this is to write a bash script that compares the
+hash of your local repository against the hash of the remote, and then executing the "git pull" command if the
+remote is ahead of the local. The time it takes to write, test, and perfect this script, plus the time taken to
+run the script each time you start your system, is greater than if you were to just run 'git status' when you
+begin to work in your repository. 
+
+The reason auto-pulling is not recommended is because you might not always want to have the most up-to-date vers-  
+ion of the repository. Let us say, for example, that you are working on a project where you and your collegues
+all commit to a single Git repository. If your collegue commits bad code to the repository at the end of the work
+day, and the next day you come in, and your computer automatically pulls the bad code, you'll have to spend a
+great deal of time rolling back to an earlier commit on your machine. Just running 'git status' rather than auto-
+pulling from a remote allows you to see the changes before you pull, and determine if you need to or want to pull
+at all.
+
+All in all, while it is technically possible to automatically pull from a more up-to-date remote repository, it
+is definitely not a recommended practice.
