@@ -1,0 +1,13 @@
+How to get highlighted syntax for Sass files in Sublime Text 3
+
+With git:
+
+-cd to Sublime packages folder
+
+-git clone git@github.com:rpardee/sas.tmbundle.git SAS
+
+Manually:
+
+-download zip file (found here http://implementing-vdw.blogspot.com/2012/10/new-sublime-text-package-available-for.html)
+
+-extract into a created Sas directory in the Sumblime packages folder
