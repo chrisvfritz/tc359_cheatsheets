@@ -1,0 +1,33 @@
+In order to save  something for a user using HTML 5, you first have to make sure that thier browser is able to support it.
+
+The following is suggested javascript code on how to detect if the browser supports local storage.
+This was obtained from http://diveintohtml5.info/storage.html
+"
+ check for HTML5 Storage
+
+function supports_html5_storage() {
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null;
+  } catch (e) {
+    return false;
+  }
+}
+"
+
+Once you have determined that the browser supports local starage, you are ready to begin.
+
+Local storage in HTML 5 is based on the idea of having a key and a value. The key is used to locate and modify the value.
+
+The two functions you need to use the basic storage system are "getItem()" and "setItem()".
+
+"getItem()" is rather straightforward. It gets a file based on its key and retarns the value of that file. It takes one parameter.
+(ex. "getItem(color1)" would return the value of the file with the key "color1")
+
+
+"setItem()" is straightforward as well. It sets a file of a certain key to whatever you want. It takes two parameters.
+(ex. "setItem(color1, "blue")" would set the file with the key "color1" to "blue")
+
+
+
+
+Source: http://diveintohtml5.info/storage.html
