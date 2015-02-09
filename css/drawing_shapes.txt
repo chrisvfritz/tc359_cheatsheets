@@ -1,0 +1,59 @@
+How to draw shapes with CSS.
+
+
+1. First give an element in your HTML document a unique ID.
+
+2, Select that id with the CSS in this type of format.
+
+	#UniqueID{
+
+
+	}
+
+
+3. Understand that to draw a shape, you need two key things. 
+
+	1. a color that distinguishes it from its background
+	2. edges that are defined by properties like Border, Width, and Height.
+	
+4. Determine what shape you wish to create. 
+
+
+5. Use the following references as points to start, if the shape you want is not there, google for instructions or browse the following link for many:
+
+http://css-tricks.com/examples/ShapesOfCSS/
+
+
+
+
+Square: 
+
+
+#square{
+
+	width: 100px;
+	height: 100px;
+	background: green;
+
+}
+
+
+Rectangle: 
+
+#rectangle{
+
+	width: 100px;
+	height: 50px;
+	background: green;
+}
+
+
+#circle{
+
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50px;
+}
+
+
