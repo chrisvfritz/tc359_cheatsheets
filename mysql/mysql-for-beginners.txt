@@ -1,0 +1,15 @@
+Basics of MySQL
+What is MySQL?
+- MySQL is a database system used on the web
+- MySQL is a database system that runs on a server
+- MySQL is ideal for both small and large applications
+- MySQL is very fast, reliable, and easy to use
+- MySQL uses standard SQL
+- MySQL compiles on a number of platforms
+- MySQL is free to download and use
+- MySQL is developed, distributed, and supported by Oracle Corporation
+- MySQL is named after co-founder Monty Widenius's daughter: My
+
+W3 schools mysql guide: http://www.w3schools.com/php/php_mysql_intro.asp
+DigitalOcean mysql guide: https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
+MySQL class on Udemy: https://www.udemy.com/mysql-database-for-beginners2/
