@@ -31,32 +31,3 @@ To push your changes to GitHub:
 git pull origin
 git push origin master
 ```
-<<<<<<< Updated upstream
-=======
-
-## TODO
-
-I'd like to see:
-
-
-- How do you revert a git repository to an older commit in the repository history?
-- How to revert your working directory back to what is on GitHub
-- Git Rebase vs. Git Merge
-- Parallax Scrolling
-- How to make your HTML clean to look at
-- How to draw shapes with css
-- Git Cherry-pick vs. Merge
-- 
-
-## DOING
-
-I am doing:
-- Git Rebase vs. Git Merge (jbull477)
-- How to revert your working directory back to what is on GitHub (PStanos)
-- How do you revert a git repository to an older commit in the repository history? (snurby7)
-- Git Cherry-pick vs. Merge (erskin19)
-- Parallax Scrolling (joshshadik)
-- How to make your HTML clean to look at (sarahnade)
-- How to draw shapes with css (Akalinsky)
->>>>>>> cfe501444a07d8e9f0023ee7cb8d260d6c486f05
->>>>>>> Stashed changes
