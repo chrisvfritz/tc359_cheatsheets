@@ -8,7 +8,7 @@ Mysqli is an extension available through PHP that can be used to interact with a
 $mysqli = new mysqli("host", "user", "password", "database");
 ```
 
-The above PHP code connects to a MySQL database using the given parameters and returns an object that we can call methods on to perform actions such as querys. In the above case we call the object ``` php $mysqli``` but it can be named anything and you can even have multiple database objects in a single file—with separate variable names of course.
+The above PHP code connects to a MySQL database using the given parameters and returns an object that we can call methods on to perform actions such as querys. In the above case we call the object ```$mysqli``` but it can be named anything and you can even have multiple database objects in a single file—with separate variable names of course.
 
 ##Checking your Connection to the Database
 
