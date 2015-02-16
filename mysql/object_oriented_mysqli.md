@@ -4,7 +4,7 @@ Mysqli is an extension available through PHP that can be used to interact with a
 
 ##Opening a Connection to a MySQL database
 
-```
+``` php
 $mysqli = new mysqli("host", "user", "password", "database");
 ```
 
@@ -14,7 +14,7 @@ The above PHP code connects to a MySQL database using the given parameters and r
 
 The following code can be used to retrieve error data from a failed connection. While it isn't strictly necesessary, it can be helpful to users and yourself to identify if there is a problem with your code or database.
 
-```
+``` php
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL database: " . $mysqli->connect_error;
 }
@@ -24,7 +24,7 @@ if ($mysqli->connect_errno) {
 
 Querying the database is done by calling the query method on the mysqli object. The SQL query is passed as a parameter of the query method demonstrated below.
 
-```
+``` php
 $result = $mysqli->query("SELECT * FROM `table`");
 ```
 
@@ -38,14 +38,14 @@ We can find out the number of rows the object contains using ```$mysqli->num_row
 
 If we want to get data from the result we can call the fetch_assoc method on the result and the row data will be stored in an associative array—the key being the field's name.
 
-```
+``` php
 $row = $result->fetch_assoc();
 echo $row['data_name'];
 ```
 
 Each time we fetch a row from the object, a pointer is moved and a subsequent fetch will retrieve the next row. Therefore, if we fetch each row in a while loop we can retrieve every row of data.
 
-```
+``` php
 while ($row = $result->fetch_assoc()) {
 	echo $row['data_name'];
 }
@@ -55,7 +55,7 @@ while ($row = $result->fetch_assoc()) {
 
 Closing a database connection is as simple as calling the close method on the database object as follows: 
 
-```
+``` php
 $mysqli->close();
 ```
 While it isn't necessary to close a database connection, especially at the end of a script when it will be closed automatically, it can free up server resources if you don't intend to make any more queries.
