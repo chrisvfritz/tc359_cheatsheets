@@ -29,6 +29,12 @@ I also recommend the following setting, so that you can better see when spaces a
 
 [EditorConfig](http://stackoverflow.com/questions/9474090/how-do-i-force-sublime-text-2-to-indent-two-spaces-per-tab#answer-24619474) is a plugin you can use to set project-specific and file-specific indentation settings.
 
+## Atom
+
+Under `Preferences` > `Settings`, near the bottom of the file should be a checkbox called `Soft Tabs` and a dropdown called `Tab Length`. Make sure to set check the checkbox and set the tab length to 2. After making this change, you may need to restart Atom.
+
+I also recommend checking the `Show Invisibles` box, so that you can see the spaces and tabs and can more easily see when they are mixed together in a file.
+
 ## Vim
 
 Vim has a built-in way of controlling the type of indentation you use for every kind of file. [Documentation here](http://vim.wikia.com/wiki/Indenting_source_code#Different_settings_for_different_file_types) explains how.
